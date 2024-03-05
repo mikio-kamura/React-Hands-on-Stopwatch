@@ -6,6 +6,7 @@ import StopwatchExample from 'pages/StopWatchExample'
 import StopwatchChakraExample from 'pages/StopWatchChakraExample'
 import State from 'pages/State'
 import StopWatch from 'pages/StopWatch'
+import Test from 'pages/Test'
 
 export const RouterConfig = () => {
   return (
@@ -19,6 +20,7 @@ export const RouterConfig = () => {
           <Route path="/stopwatch" element={<StopWatch />} />
           <Route path="/stopwatch/example" element={<StopwatchExample />} />
           <Route path="/stopwatch/chakra/example" element={<StopwatchChakraExample />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
       </BrowserRouter>
     </>
